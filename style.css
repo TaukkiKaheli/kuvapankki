@@ -13,3 +13,92 @@ Text Domain: Photobank
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.left-nav {
+    border-left: 5px solid red;
+}
+
+.left-nav li {
+    display: inline-block;
+    width: 100%;
+    border-radius: 0 0 2em 0;
+}
+
+.left-nav li:hover {
+    background-color: red;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.left-nav li:hover a {
+    padding-left: 2em;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.left-nav a {
+    padding-left: 1em;
+    text-decoration: none;
+    line-height: 3em;
+    font-size: 1.3em;
+    color: black;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.left-nav a:hover {
+    
+}
+
+.search-block {
+    line-height: 2em;
+}
+
+.search-block form {
+    float: right;
+}
+
+.search-block label {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
