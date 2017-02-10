@@ -19,6 +19,11 @@ body, ul {
     padding: 0;
 }
 
+.img-fluid {
+    object-fit: cover;
+    height: 400px !important;
+}
+
 .left-nav {
     border-left: 5px solid red;
 }
@@ -53,6 +58,11 @@ body, ul {
 
 .left-nav a:hover {
     
+}
+
+.col-12 {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .search-block {
