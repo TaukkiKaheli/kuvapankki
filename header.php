@@ -15,6 +15,8 @@
     <link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
     
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
 </head>
 
 <body>
