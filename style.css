@@ -17,6 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body, ul {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -60,8 +61,14 @@ body {
     transition: 0.3s;
 }
 
-.left-nav a:hover {
-    
+.current-menu-item {
+    background-color: rgba(25,150,190,0.8);
+}
+
+.current-menu-item a {
+    font-weight: bold;
+    padding-left: 2em;
+    color: white;
 }
 
 main .row:nth-of-type(1) {
@@ -77,6 +84,10 @@ main h3 {
     bottom: 0;
     margin: 15px 0 0 0;
     line-height: 36px;
+}
+
+.pictitle {
+    font-family: 'Alegreya', serif;
 }
 
 .search-block {
@@ -101,27 +112,50 @@ main h3 {
     height: 36px;
     width: 36px;
     cursor: pointer;
+    border: none;
 }
 
 .search-block label {
     display: none;
 }
 
-article h4 {
+.card-title {
+    padding: 2px;
     background-color: rgba(25,25,25,0.2);
     color: rgb(255,255,255);
+    font-family: 'Alegreya', serif;
+    font-style: italic;
 }
 
-.card {
-    flex-wrap: wrap;
-    display: flex;
+.artikkeli img {
+    width: 100%;
 }
 
 .info {
-    background-color: blue;
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    color: rgba(25,150,190,0.8);
+    font-size: 0.8em;
 }
 
+.highlight {
+    color: black;
+}
 
+.location {
+    margin-bottom: 0;
+}
+
+.edd_add_to_cart {
+    background-color: rgba(25,150,190,0.8) !important;
+}
+
+.edd_go_to_checkout {
+    background-color: rgba(25,150,190,0.8) !important;
+}
 
 
 
