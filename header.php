@@ -16,7 +16,8 @@
     
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
 </head>
 
 <body>

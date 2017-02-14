@@ -4,19 +4,26 @@
                 <?php get_sidebar(); ?>
             </div>
             <main class="col-8">
-                <?php if (have_posts()): ?>
-                    <?php while(have_posts()): ?>
-                        <?php the_post(); ?>
-                        <?php the_content(); ?>
-                    <?php endwhile ?>
-                <?php endif ?>
                 <div class="row">
                     <div class="col-6">
-                        <h3>Latest</h3>
+                        <?php if (have_posts()): ?>
+                            <?php while(have_posts()): ?>
+                                <?php the_post(); ?>
+                                <h3 class="pictitle">'<?php the_title(); ?>'</h3>
+                            <?php endwhile ?>
+                        <?php endif ?>
                     </div>
                     <div class="col-6 search-block">
                         <?php get_search_form(); ?>
                     </div>
+                </div>
+                <div class="row artikkeli">
+                    <?php if (have_posts()): ?>
+                        <?php while(have_posts()): ?>
+                            <?php the_post(); ?>
+                            <?php the_content(); ?>
+                        <?php endwhile ?>
+                    <?php endif ?>
                 </div>
                 <div class="row">
                     <?php
