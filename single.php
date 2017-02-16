@@ -38,20 +38,22 @@
                 </div>
                 <div class="row">
                     <?php
-                        $uudet_artikkelit = wp_get_recent_posts(array('numberposts' => '12'));
+                        $uudet_artikkelit = wp_get_recent_posts(array('numberposts' => '8'));
                         foreach($uudet_artikkelit as $artikkeli):
                     ?>
                     
-                    <a href="<?php echo get_permalink($artikkeli['ID']); ?>">
-                        <article class="card">
-                            <?php echo get_the_post_thumbnail($artikkeli['ID'], 'thumbnail'); ?>
-                            <div class="card-img-overlay">
-                                <h6 class="card-title">
-                                    '<?php echo $artikkeli['post_title']; ?>'
-                                </h6>
-                            </div>
-                        </article>
-                    </a>
+                    <div class="col">
+                        <a href="<?php echo get_permalink($artikkeli['ID']); ?>">
+                            <article class="card">
+                                <?php echo get_the_post_thumbnail($artikkeli['ID'], 'thumbnail'); ?>
+                                <div class="card-img-overlay">
+                                    <h6 class="card-title">
+                                        '<?php echo $artikkeli['post_title']; ?>'
+                                    </h6>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
                     
                     <?php endforeach; ?>
                 </div>
