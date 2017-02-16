@@ -33,12 +33,12 @@
 -->
                 <div class="row">
                     <div class="col-3">
-                        <h4 style="font-weight: bolder; border-left: 3px solid rgba(25,150,190,0.8); color: rgba(25,150,190,0.8)">
+                        <h4 style="border-left: 1px solid rgba(25,150,190,0.8);">
                             <a href="http://users.metropolia.fi/~aleksr/wp_projekti/">Latest</a>
                         </h4>
                     </div>
                     <div class="col-3">
-                        <h4 style="border-left: 1px solid rgba(25,150,190,0.8);">
+                        <h4 style="font-weight: bolder; border-left: 3px solid rgba(25,150,190,0.8); color: rgba(25,150,190,0.8)">
                             <a href="http://users.metropolia.fi/~aleksr/wp_projekti/most-viewed.php">Most viewed</a>
                         </h4>
                     </div>
