@@ -1,10 +1,24 @@
 <?php get_header(); ?>
-        <div class="row">
-            <div class="col-4">
-                <?php get_sidebar(); ?>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img class="d-block img-fluid" src="https://trello-attachments.s3.amazonaws.com/587dd2f3c4ef0b80fbe11bf5/58a2eec207b537400219be21/b88439ae9ac70bd14ad2324fc90cc783/banner1.jpg" alt="First slide">
+                <div class="container overlaymenu">
+                    <?php get_sidebar(); ?>
+                    <div class="col-6 search-block">
+                        <?php get_search_form(); ?>
+                    </div>
+                </div>
+                
             </div>
-            <main class="col-8">
-                <div class="row">
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            
+            <main class="col">
+                <div class="row" style="border-bottom: 1px solid rgba(25,150,190,0.8);">
                     <div class="col-6">
                         <?php if (have_posts()): ?>
                             <?php while(have_posts()): ?>
@@ -12,9 +26,6 @@
                                 <h3 class="pictitle">'<?php the_title(); ?>'</h3>
                             <?php endwhile ?>
                         <?php endif ?>
-                    </div>
-                    <div class="col-6 search-block">
-                        <?php get_search_form(); ?>
                     </div>
                 </div>
                 <div class="row artikkeli">

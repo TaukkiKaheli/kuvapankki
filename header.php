@@ -26,19 +26,16 @@
     <nav class="navbar navbar-light bg-faded">
         <div class="container">
             <div class="row">
-            <div class="col-4">
-                <a class="navbar-brand" href="http://users.metropolia.fi/~aleksr/wp_projekti/">Logo  <span class="fa fa-home"></span></a>
-                
-            </div>
-            <div class="col-4">
-                <h5 class="slogan">'quality over quantity'</h5>
-            </div>
-            <div class="col-4">
-                <a class="navbar-brand checkout" href="http://users.metropolia.fi/~aleksr/wp_projekti/checkout"><span class="fa fa-shopping-cart checkouticon"></span></a>
-                
-                <a class="navbar-brand checkout" href="http://users.metropolia.fi/~aleksr/wp_projekti/checkout">Checkout</a>
-                
-            </div>
+                <div class="col">
+                    <a class="navbar-brand" href="http://users.metropolia.fi/~aleksr/wp_projekti/">Logo  <span class="fa fa-home"></span></a>
+                </div>
+                <div class="col">
+                    <h5 class="slogan">'quality over quantity'</h5>
+                </div>
+                <div class="col">
+                    <a class="navbar-brand checkout" href="http://users.metropolia.fi/~aleksr/wp_projekti/checkout"><span class="fa fa-shopping-cart checkouticon"></span></a>
+                    <a class="navbar-brand checkout" href="http://users.metropolia.fi/~aleksr/wp_projekti/checkout">Checkout</a>
+                </div>
             </div>
         </div>
     </nav>
