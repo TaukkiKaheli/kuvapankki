@@ -36,26 +36,13 @@
                         <?php endwhile ?>
                     <?php endif ?>
                 </div>
-                <div class="row">
-                    <?php
-                        $uudet_artikkelit = wp_get_recent_posts(array('numberposts' => '8'));
-                        foreach($uudet_artikkelit as $artikkeli):
-                    ?>
-                    
-                    <div class="col">
-                        <a href="<?php echo get_permalink($artikkeli['ID']); ?>">
-                            <article class="card">
-                                <?php echo get_the_post_thumbnail($artikkeli['ID'], 'thumbnail'); ?>
-                                <div class="card-img-overlay">
-                                    <h6 class="card-title">
-                                        '<?php echo $artikkeli['post_title']; ?>'
-                                    </h6>
-                                </div>
-                            </article>
-                        </a>
+                <div class="row mostviewed">
+                    <div class="col-12 mwheader">
+                        <h4 class="activeheader singlepost">
+                            <a href="http://users.metropolia.fi/~aleksr/wp_projekti/category/most-viewed">Most viewed</a>
+                        </h4>
                     </div>
-                    
-                    <?php endforeach; ?>
+                    <?php wpp_get_mostpopular('wpp_start=" "&wpp_end" "&thumbnail_width=251&thumbnail_height=300&limit=8&range="all"&post_html="<div class=\'col\'><a href=\'{url}\'><article class=\'card\'>{thumb_img}<div class=\'card-img-overlay\'><h6 class=\'card-title\'>\'{text_title}\'</h6></div></article></a></div>"'); ?>
                 </div>
             </main>
         </div>
