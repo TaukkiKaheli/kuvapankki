@@ -23,22 +23,14 @@
                 <?php get_sidebar(); ?>
             </div>
             <main class="col-8">
-<!--
-                <?php if (have_posts()): ?>
-                    <?php while(have_posts()): ?>
-                        <?php the_post(); ?>
-                        <?php the_content(); ?>
-                    <?php endwhile ?>
-                <?php endif ?>
--->
                 <div class="row">
                     <div class="col-3">
-                        <h4 class="activeheader">
+                        <h4 class="inactiveheader">
                             <a href="http://users.metropolia.fi/~aleksr/wp_projekti/">Latest</a>
                         </h4>
                     </div>
                     <div class="col-3">
-                        <h4 class="inactiveheader">
+                        <h4 class="activeheader">
                             <a href="http://users.metropolia.fi/~aleksr/wp_projekti/category/most-viewed">Most viewed</a>
                         </h4>
                     </div>
@@ -47,23 +39,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <?php
-                        $uudet_artikkelit = wp_get_recent_posts(array('numberposts' => '12'));
-                        foreach($uudet_artikkelit as $artikkeli):
-                    ?>
-                    
-                    <a href="<?php echo get_permalink($artikkeli['ID']); ?>">
-                        <article class="card">
-                            <?php echo get_the_post_thumbnail($artikkeli['ID'], 'thumbnail'); ?>
-                            <div class="card-img-overlay">
-                                <h6 class="card-title">
-                                    '<?php echo $artikkeli['post_title']; ?>'
-                                </h6>
-                            </div>
-                        </article>
-                    </a>
-                    
-                    <?php endforeach; ?>
+                    <?php wpp_get_mostpopular('wpp_start=" "&wpp_end" "&thumbnail_width=251&thumbnail_height=300&limit=12&range="all"&post_html="<a href=\'{url}\'><article class=\'card\'>{thumb_img}<div class=\'card-img-overlay\'><h6 class=\'card-title\'>\'{text_title}\'</h6></div></article></a>"'); ?>
                 </div>
             </main>
         </div>
