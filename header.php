@@ -27,14 +27,21 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <a class="navbar-brand" href="http://users.metropolia.fi/~aleksr/wp_projekti/">Logo  <span class="fa fa-home"></span></a>
+                    <a class="navbar-brand logolink" href="http://users.metropolia.fi/~aleksr/wp_projekti/">
+                        <img src="https://trello-attachments.s3.amazonaws.com/587dd2f3c4ef0b80fbe11bf5/58b54a6c745bc33df77374f8/a5906c72bbc25b1d90abfe28c52dd9f8/logo.png" class="logo">
+                        <span class="fa fa-home"></span>
+                    </a>
                 </div>
                 <div class="col">
                     <h5 class="slogan">'quality over quantity'</h5>
                 </div>
                 <div class="col">
-                    <a class="navbar-brand checkout" href="http://users.metropolia.fi/~aleksr/wp_projekti/checkout"><span class="fa fa-shopping-cart checkouticon"></span></a>
-                    <a class="navbar-brand checkout" href="http://users.metropolia.fi/~aleksr/wp_projekti/checkout">Checkout</a>
+                    <a class="navbar-brand checkout" href="http://users.metropolia.fi/~aleksr/wp_projekti/checkout">
+                        <div class="checkouttext">
+                            Checkout
+                        </div>
+                        <div class="fa fa-shopping-cart checkouticon"></div>
+                    </a>
                 </div>
             </div>
         </div>
