@@ -30,6 +30,14 @@ header
 =============================================================
 */
 
+.logo {
+    width: 180px;
+}
+
+.logolink {
+    margin-right: 0;
+}
+
 .slogan {
     text-align: center;
     margin-top: 4px;
@@ -41,13 +49,23 @@ header
 
 .checkout {
     float: right;
+    margin-right: 0;
+}
+
+.checkouttext {
+    display: inline-block;
+    line-height: 2em;
 }
 
 .checkouticon {
-    float: right;
+/*    float: right;*/
     display: inline-block;
     box-sizing: border-box;
-    padding-top: 4px;
+/*    padding-top: 4px;*/
+}
+
+.fa-home, .fa-shopping-cart {
+    color: rgba(25,150,190,0.8);
 }
 
 .navbar .container .row .col:nth-of-type(3) {
@@ -146,12 +164,85 @@ category-menu
 
 /*
 =============================================================
+jumbotron
+=============================================================
+*/
+
+.jumbotron {
+    margin-bottom: 0;
+    height: 514px;
+    width: 345px;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+}
+
+.jumbotron .container:hover .jumbopic {
+    opacity: 0.5 !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.jumbotron a {
+    text-decoration: none;
+}
+
+.jlink {
+    position: absolute;
+    bottom: 0;
+    width: 345px;
+}
+
+.jumbotron .container {
+    padding: 0 !important;
+}
+
+.jumboheader {
+    height: 50px;
+    margin: 0;
+    text-align: center;
+    color: rgba(25,150,190,0.8);
+    text-decoration: none;
+}
+
+.jumbopic {
+    width: 345px;
+    max-height: 380px;
+    object-fit: cover;
+    margin-bottom: 0.8px;
+}
+
+.jspecs {
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+/*
+=============================================================
 article-header
 =============================================================
 */
 
-main .row:nth-of-type(1) {
-    margin-bottom: 15px;
+.loopheader {
+    text-align: center;
+    margin-top: 1em;
+    line-height: 2em;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.loopcontent {
+    text-align: center;
+    line-height: 1.7em;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.articles {
+    margin-top: 1em;
 }
 
 main .col-6 {
@@ -254,6 +345,17 @@ search
     display: none;
 }
 
+main > p > img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 1em;
+    border-top: 1px solid rgba(25,150,190,0.8);
+}
+
+p:nth-of-type(1) > img {
+    border-top: none !important;
+}
+
 /*
 =============================================================
 thumbnails
@@ -293,6 +395,7 @@ article
 
 .artikkeli p:nth-of-type(1) {
     margin: auto;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 
@@ -316,14 +419,6 @@ article
 
 .location {
     margin-bottom: 0;
-}
-
-.edd_add_to_cart {
-    background-color: rgba(25,150,190,0.8) !important;
-}
-
-.edd_go_to_checkout {
-    background-color: rgba(25,150,190,0.8) !important;
 }
 
 /*
@@ -350,8 +445,65 @@ newest
     margin-bottom: 1em;
 }
 
+/*
+=============================================================
+ostoskori
+=============================================================
+*/
 
+.edd_purchase_200 {
+    
+}
 
+.edd-add-to-cart {
+    background-color: rgba(25,150,190,0.8) !important;
+}
+
+.edd-submit {
+    background-color: rgba(25,150,190,0.8) !important;
+}
+
+.edd-cart-added-alert {
+    color: rgba(25,150,190,0.8) !important;
+    width: 150px;
+}
+
+.edd_go_to_checkout {
+    background-color: rgba(25,150,190,0.8) !important;
+}
+
+#edd_checkout_wrap {
+    margin-top: 1em !important;
+}
+
+tr, th, td, #edd_checkout_user_info {
+    border: 1px solid rgba(25,150,190,0.8) !important;
+}
+
+#edd_checkout_user_info > legend {
+    margin-bottom: 0;
+}
+
+#edd_final_total_wrap {
+    border: none !important;
+    border-radius: 10px !important;
+    background-color: whitesmoke !important;
+}
+
+.edd_cart_amount {
+    color: rgba(25,150,190,0.8) !important;
+}
+
+/*
+=============================================================
+footer
+=============================================================
+*/
+
+.fuuter {
+    margin-top: 3em !important;
+    background-color: rgba(25,150,190,0.8) !important;
+}
 
 
 

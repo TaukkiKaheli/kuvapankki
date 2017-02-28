@@ -30,7 +30,7 @@
                         <?php get_search_form(); ?>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row articles">
                     <?php
                         $id = get_queried_object()->term_id;
                         $artikkelit = get_posts(array('category' => $id, 'numberposts' => 999));

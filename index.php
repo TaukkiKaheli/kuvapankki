@@ -21,16 +21,25 @@
         <div class="row">
             <div class="col-4">
                 <?php get_sidebar(); ?>
+                <div class="jumbotron jumbotron-fluid">
+                    <a href="http://users.metropolia.fi/~aleksr/wp_projekti/cloudy-sky-full-of-stars/" class="jlink">
+                        <div class="container">
+                            <h2 class="jumboheader">EDITOR'S CHOICE</h2>
+                            <img src="http://users.metropolia.fi/~aleksr/wp_projekti/wp-content/uploads/2017/02/Cloudy-sky-full-of-stars-686x960.jpg" class="jumbopic">
+                            <div class="info" style="margin-bottom: 0">
+                                <p class="jspecs"><span class="highlight">Type:</span> JPEG <span class="highlight">| Resolution:</span> 3456x4838 <span class="highlight">| File size:</span> 9.87Mb <span class="highlight">| Focal length:</span> 17mm <span class="highlight">| Exposure:</span> 30s <span class="highlight">| Aperture:</span> f/3.2 <span class="highlight">| ISO:</span> 640</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
             <main class="col-8">
-<!--
                 <?php if (have_posts()): ?>
                     <?php while(have_posts()): ?>
                         <?php the_post(); ?>
                         <?php the_content(); ?>
                     <?php endwhile ?>
                 <?php endif ?>
--->
                 <div class="row">
                     <div class="col-3">
                         <h4 class="activeheader">
@@ -46,7 +55,7 @@
                         <?php get_search_form(); ?>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row articles">
                     <?php
                         $uudet_artikkelit = wp_get_recent_posts(array('numberposts' => '12'));
                         foreach($uudet_artikkelit as $artikkeli):
