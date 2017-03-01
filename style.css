@@ -31,7 +31,8 @@ header
 */
 
 .logo {
-    width: 180px;
+    width: 8em;
+    margin-top: 0.1em;
 }
 
 .logolink {
@@ -40,7 +41,7 @@ header
 
 .slogan {
     text-align: center;
-    margin-top: 4px;
+    margin-top: 0.3em;
     font-family: 'Great Vibes', cursive;
     font-size: 1.8em;
     font-weight: 100;
@@ -55,6 +56,7 @@ header
 .checkouttext {
     display: inline-block;
     line-height: 2em;
+    padding-right: 0.4em;
 }
 
 .checkouticon {
@@ -470,6 +472,7 @@ ostoskori
 
 .edd_go_to_checkout {
     background-color: rgba(25,150,190,0.8) !important;
+    border: 1px solid #ccc !important;
 }
 
 #edd_checkout_wrap {
@@ -488,10 +491,19 @@ tr, th, td, #edd_checkout_user_info {
     border: none !important;
     border-radius: 10px !important;
     background-color: whitesmoke !important;
+    margin-top: 0.5em;
 }
 
 .edd_cart_amount {
     color: rgba(25,150,190,0.8) !important;
+}
+
+.edd_cart_remove_item_btn {
+    color: rgba(25,150,190) !important;
+}
+
+.edd_terms_links {
+    color: rgba(25,150,190,0.8);
 }
 
 /*
@@ -503,6 +515,16 @@ footer
 .fuuter {
     margin-top: 3em !important;
     background-color: rgba(25,150,190,0.8) !important;
+}
+
+.fuuterimg {
+    margin: auto;
+    height: 1em;   
+}
+.copyright {
+    text-align: center;
+    font-size: 0.7em;
+    margin-bottom: 0;
 }
 
 
