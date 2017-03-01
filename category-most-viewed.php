@@ -11,7 +11,7 @@
                 <img class="d-block img-fluid" src="https://trello-attachments.s3.amazonaws.com/587dd2f3c4ef0b80fbe11bf5/589d7eea61fb6b71bdfeea6a/5cedb1fd9f085f1a78e7abc6f3223de1/carousel3.jpg" alt="Third slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block img-fluid" src="https://trello-attachments.s3.amazonaws.com/587dd2f3c4ef0b80fbe11bf5/589d7f78ffe06ef9f643fe21/8f1991bfb2e85713777059cfd158e0be/carousel4.jpg" alt="Third slide">
+                <img class="d-block img-fluid" src="https://trello-attachments.s3.amazonaws.com/587dd2f3c4ef0b80fbe11bf5/589d7f78ffe06ef9f643fe21/8f1991bfb2e85713777059cfd158e0be/carousel4.jpg" alt="Fourth slide">
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
                             <h2 class="jumboheader">EDITOR'S CHOICE</h2>
                             <img src="http://users.metropolia.fi/~aleksr/wp_projekti/wp-content/uploads/2017/02/Cloudy-sky-full-of-stars-686x960.jpg" class="jumbopic">
                             <div class="info" style="margin-bottom: 0">
-                                <p class="jspecs"><span class="highlight">Type:</span> JPEG <span class="highlight">| Resolution:</span> 3456x4838 <span class="highlight">| File size:</span> 9.87Mb <span class="highlight">| Focal length:</span> 17mm <span class="highlight">| Exposure:</span> 30s <span class="highlight">| Aperture:</span> f/3.2 <span class="highlight">| ISO:</span> 640</p>
+                                <p class="jspecs"><span class="highlight">Type:</span> JPEG <span class="highlight">| Resolution:</span> 3456x4320 <span class="highlight">| File size:</span> 8.70Mb <span class="highlight">| Focal length:</span> 28mm <span class="highlight">| Exposure:</span> 1/100s <span class="highlight">| Aperture:</span> f/5 <span class="highlight">| ISO:</span> 100</p>
                             </div>
                         </div>
                     </a>
