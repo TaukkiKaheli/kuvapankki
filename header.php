@@ -23,19 +23,19 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-faded">
+    <nav class="navbar navbar-light bg-faded headeri">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-md">
                     <a class="navbar-brand logolink" href="http://users.metropolia.fi/~aleksr/wp_projekti/">
                         <img src="https://trello-attachments.s3.amazonaws.com/587dd2f3c4ef0b80fbe11bf5/58b54a6c745bc33df77374f8/a5906c72bbc25b1d90abfe28c52dd9f8/logo.png" class="logo">
                         <span class="fa fa-home"></span>
                     </a>
                 </div>
-                <div class="col">
+                <div class="col-md hidden-md-down">
                     <h5 class="slogan">'quality over quantity'</h5>
                 </div>
-                <div class="col">
+                <div class="col-md">
                     <a class="navbar-brand checkout" href="http://users.metropolia.fi/~aleksr/wp_projekti/checkout">
                         <div class="checkouttext">
                             Checkout
