@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide hidden-md-down" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
                 <img class="d-block img-fluid" src="https://trello-attachments.s3.amazonaws.com/587dd2f3c4ef0b80fbe11bf5/589d7ebfcf3d25371215c25f/d920fbc1e09a0ab3c31acbcde1a63697/carousel1.jpg" alt="First slide">
@@ -18,15 +18,15 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-4">
+            <div class="col col-lg-4 sidebarmenu">
                 <?php get_sidebar(); ?>
             </div>
-            <main class="col-8">
-                <div class="row">
-                    <div class="col-6">
+            <main class="col col-lg-8">
+                <div class="row thumbnails">
+                    <div class="col-lg-6">
                         <h3><?php echo get_queried_object()->name; ?></h3>
                     </div>
-                    <div class="col-6 search-block">
+                    <div class="col-lg-6 search-block">
                         <?php get_search_form(); ?>
                     </div>
                 </div>
