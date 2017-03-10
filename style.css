@@ -450,6 +450,14 @@ article
     margin-bottom: 0;
 }
 
+.termslist {
+    list-style-type: none;
+}
+
+.termslist li {
+    line-height: 2em;
+}
+
 /*
 =============================================================
 newest
@@ -466,7 +474,11 @@ newest
     margin: auto !important;
 }
 
-.mostviewed .col:nth-of-type(2) {
+.mostviewed .col:nth-of-type(1) {
+    margin-bottom: 0;
+}
+
+.mostviewed .col {
     margin-bottom: 1em;
 }
 
@@ -483,6 +495,10 @@ newest
 ostoskori
 =============================================================
 */
+
+.edd_download_purchase_form {
+    
+}
 
 .edd_purchase_200 {
     
@@ -552,6 +568,7 @@ footer
     margin: auto;
     height: 1em;   
 }
+
 .copyright {
     text-align: center;
     font-size: 0.7em;
