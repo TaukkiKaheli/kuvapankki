@@ -35,9 +35,9 @@
             </div>
             <main class="col col-lg-8">
                 <div class="col loopstuff">
-                    <h4 class="loopheader">
+                    <h5 class="loopheader">
                         Stunning photos for both personal and commercial use
-                    </h4>
+                    </h5>
                     <p class="loopcontent">
                         Imagevault contains dozens of high quality photos designed to be used both privately and commercially
                     </p>
